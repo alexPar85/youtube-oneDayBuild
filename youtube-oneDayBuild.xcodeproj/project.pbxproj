@@ -17,6 +17,7 @@
 		041397AF25755DB800E5CFDA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041397AE25755DB800E5CFDA /* Video.swift */; };
 		041397B2257561A500E5CFDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041397B1257561A500E5CFDA /* Model.swift */; };
 		041397B525756C6F00E5CFDA /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041397B425756C6F00E5CFDA /* ConstantsTemplate.swift */; };
+		041397B82576C3E400E5CFDA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041397B72576C3E400E5CFDA /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		041397AE25755DB800E5CFDA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		041397B1257561A500E5CFDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		041397B425756C6F00E5CFDA /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		041397B72576C3E400E5CFDA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				041397AE25755DB800E5CFDA /* Video.swift */,
 				041397B1257561A500E5CFDA /* Model.swift */,
 				041397B425756C6F00E5CFDA /* ConstantsTemplate.swift */,
+				041397B72576C3E400E5CFDA /* Response.swift */,
 			);
 			path = "youtube-oneDayBuild";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041397B82576C3E400E5CFDA /* Response.swift in Sources */,
 				041397B525756C6F00E5CFDA /* ConstantsTemplate.swift in Sources */,
 				0413979B2575065B00E5CFDA /* ViewController.swift in Sources */,
 				041397972575065B00E5CFDA /* AppDelegate.swift in Sources */,
