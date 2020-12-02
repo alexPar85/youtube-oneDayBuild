@@ -40,31 +40,31 @@ struct Video : Decodable {
         
         // Parse title
         self.title = try snippetContainer.decode(String.self, forKey: .title)
-       // print ("title////////////////////////////////////////////////")
-        //print (title)
+        print ("title////////////////////////////////////////////////")
+        print (title)
         
         // Parse description
         self.description = try snippetContainer.decode(String.self, forKey: .description)
-        //print("description////////////////////////////////////////////////")
-        //print (description)
+        print("description////////////////////////////////////////////////")
+        print (description)
         // Parse the publish date
         self.published = try snippetContainer.decode(Date.self, forKey: .published)
-        //print("published////////////////////////////////////////////////")
-        //print (published)
+        print("published////////////////////////////////////////////////")
+        print (published)
         // Parse thumbnails
         let thumbnailContainer = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .thumbnails)
         
         let highContainer = try thumbnailContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .high)
         
         self.thumbnail = try highContainer.decode(String.self, forKey: .thumbnail)
-        //print("thumbnail////////////////////////////////////////////////")
-        //print (thumbnail)
+        print("thumbnail////////////////////////////////////////////////")
+        print (thumbnail)
         // Parse videoId
         let resourceIdContainder = try snippetContainer.nestedContainer(keyedBy: CodingKeys.self, forKey: .resourceId)
         
         self.videoId = try resourceIdContainder.decode(String.self, forKey: .videoId)
-        //print("videoId////////////////////////////////////////////////")
-        //print (videoId)
+        print("videoId////////////////////////////////////////////////")
+        print (videoId)
         
     }
 }
